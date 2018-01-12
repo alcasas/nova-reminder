@@ -1,0 +1,24 @@
+{
+    "name": "iTexico Nova Reminder",
+    "version": "1.0.0",
+    "description": "Chrome extension that reminds you to fill Nova",
+    "browser_action": {
+      "default_popup": "views/nova.html",
+      "default_icon": "icons/clock.png"
+    },
+    "permissions": [
+        "tabs",
+        "http://nova.itexico.com/activities"
+    ],
+    "background": { 
+      "scripts": ["js/service.js"] 
+    },
+    "icons": { 
+      "16": "icons/itx_16.png",
+      "32": "icons/itx_32.png",
+      "48": "icons/itx_48.png",
+      "64": "icons/itx_64.png",
+      "128": "icons/itx_128.png"
+    },
+    "manifest_version": 2
+  }
