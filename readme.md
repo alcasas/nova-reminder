@@ -6,7 +6,12 @@ Hour for reminder can be configured.
 
 ![Config popup](http://gdurl.com/L7iJ)
 ### Install
-
+You can clone the repo
 >git clone https://github.com/alcasas/nova-reminder.git
 
-Open [chrome://extensions](chrome://extensions), activate "developer mode", click on "Load unpackage extension" and find the folder where you cloned it.
+Or download the compressed file and decompress it
+>[https://github.com/alcasas/nova-reminder/archive/master.zip](https://github.com/alcasas/nova-reminder/archive/master.zip)
+
+Then:
+
+Open [chrome://extensions](chrome://extensions) in Google Chrome, activate "developer mode", click on "Load unpackaged extension..." and select the folder where you cloned it or decompressed it.
