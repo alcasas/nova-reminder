@@ -10,7 +10,7 @@ function reminder(){
     chrome.tabs.create( {
         selected : true,
         active   : true,
-        url      : 'http://nova.itexico.com'
+        url      : 'https://supernova.itexico.com'
     }, function ( tab ){
         novaTab = tab;
     } );
@@ -46,7 +46,7 @@ function init(){
     
     // get chrome nova tab and inject js code
     chrome.tabs.onUpdated.addListener( function( tabId, changes ){
-        if ( tabId === novaTab.id && changes.url && changes.url.indexOf( 'nova.itexico.com/activities' ) !== -1 ){
+        if ( tabId === novaTab.id && changes.url && changes.url.indexOf( 'supernova.itexico.com' ) !== -1 ){
             chrome.tabs.executeScript( novaTab.id, { file: 'js/nova-inject.js' } );
         }
     } );
