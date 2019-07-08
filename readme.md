@@ -2,10 +2,8 @@
 
 This is a chrome extension for iTexico folks to remember to fill nova, this shows up an alert and it opens nova in a new tab showing the modal form to capture a new activity. 
 
-Hour for reminder can be configured.
+Hour and aler popup for reminder can be configured.
 
-![Config popup](http://gdurl.com/L7iJ)
-### Install
 You can clone the repo
 >git clone https://github.com/alcasas/nova-reminder.git
 
