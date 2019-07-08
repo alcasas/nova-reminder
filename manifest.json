@@ -1,6 +1,6 @@
 {
     "name": "iTexico Nova Reminder",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "description": "Chrome extension that reminds you to fill Nova",
     "browser_action": {
       "default_popup": "views/nova.html",

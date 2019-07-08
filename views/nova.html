@@ -1,17 +1,19 @@
-<!DOCTYPE HTML>
 <html>
+
   <head>
     <style>
       body {
-        min-width: 200px;
-        min-height: 85px;
+        width: 170px;
+        height: 90px;
         text-align: center;
       }
-      #time{
+
+      #time {
         padding: 0.5em;
         font-size: 1.3em;
       }
-      #saveBtn{
+
+      #saveBtn {
         background-color: rgb(3, 155, 229);
         color: white;
         margin-left: 1em;
@@ -20,18 +22,32 @@
         cursor: pointer;
         font-size: 1.1em;
       }
-      #saveBtn:hover{
-        background-color: rgb(2, 119, 189)
+
+      #checkbox-container {
+        padding: 0.5em;
+        border: 1px solid #e3e3e3;
+        text-align: left;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+      }
+
+      #saveBtn:hover {
+        background-color: rgb(2, 119, 189);
       }
     </style>
     <script src='../js/nova.js'></script>
   </head>
 
   <body>
-    <h2>Nova. Remind me at: </h2>
-    <div id="inputWrapper">
-        <input type="time" id="time">
-        <button id="saveBtn">Save</button>
+    <div id="input-container">
+      Nova Reminder
+      <div id="checkbox-container">
+        <input type="checkbox" id="showAlert" />
+        <label for="showAlert">Show alert</label>
+      </div>
+      <input type="time" id="time" />
+      <button id="saveBtn">Save</button>
     </div>
   </body>
+
 </html>
