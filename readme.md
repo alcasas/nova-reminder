@@ -12,4 +12,10 @@ Or download the compressed file and decompress it
 
 Then:
 
+For chrome
+
 Open [chrome://extensions](chrome://extensions) in Google Chrome, activate "developer mode", click on "Load unpackaged extension..." and select the folder where you cloned it or decompressed it.
+
+For microsoft edge
+
+Open [edge://extensions](edge://extensions) in Edge, activate "developer mode", click on "Load unpackaged extension..." and select the folder where you cloned it or decompressed it.
